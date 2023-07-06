@@ -1,0 +1,41 @@
+.nav-tabs {
+  display: flex;
+}
+
+.nav-link {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.tab-content .tab-pane {
+  display: none;
+  padding: 10px;
+  margin-left: 16px;
+}
+
+.nav-link.active {
+  background-color: #f0f0f0;
+  border-bottom: 2px solid #463f3f;
+}
+
+.tab-content .tab-pane.active {
+  display: block;
+}
+
+.tab-pane {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(42, 214, 59);
+  font-weight: 600;
+}
+.tab-pane-1 {
+  color: aqua;
+}
+.tab-pane-2 {
+  color: rgb(25, 66, 70);
+}
+
+.tab-pane-4 {
+  color: #e38191;
+}
